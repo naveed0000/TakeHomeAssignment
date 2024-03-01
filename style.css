@@ -1,0 +1,542 @@
+* { 
+    margin : 0px; 
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+
+
+body { 
+    overflow-x: hidden;
+}
+nav { 
+    background-color: #ffbebe;
+    position: fixed;
+    top: 0px;
+    height: 10vh;
+    z-index: 10;
+    /* background: transparent; */
+    width: 100%;
+    background: rgb(0,45,255);
+    background: linear-gradient(144deg, rgba(0,45,255,1) 0%, rgba(191,0,255,1) 100%); 
+}
+
+nav > ul {  
+    list-style-type: none;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    color:white;
+}
+.nav-container-1{ 
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 20px;
+    margin: left;
+}
+/* span { 
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 1em;
+    margin-right: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+.wrapper-icon { 
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.company-logo { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid white;
+    width: 14em;
+    /* margin-top: 20px; */
+}
+
+.cmp-icon { 
+    width: 30px;
+    height: 30px;
+}
+
+.company-name { 
+    /* padding: 10px; */
+    font-size: 20px;
+    text-transform: capitalize; 
+}
+
+li { 
+    list-style: none;
+    font-size: 1em;
+    margin-right: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+.last-child { 
+    margin-right: 15vw;
+}
+
+
+ 
+#cro-img-1, #cro-img-2 , #cro-img-3 { 
+    width: 100%;
+    height: 100vh;
+}
+.indicator-1 , .indicator-2 , .indicator-3 { 
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+
+}
+
+
+.caro-heading{ 
+    font-size: 3.5em;
+    color: white;
+    height: 2.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.caro-desc { 
+    height: 15em;
+}
+
+/* About */
+.about { 
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+h2 { 
+    text-align: center;
+    padding-top: 5vh;
+    text-transform: capitalize;
+}
+
+.card-container { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 13vh 9vw;
+}
+
+.card-1 , .card-2 , .card-3 , .card-4 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vh;
+    box-shadow: 1px 1px 2px;
+}
+
+.img-1 ,.img-2 ,.img-3 ,.img-4 { 
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+.card-rgtSide-1 , .card-rgtSide-2 , 
+.card-rgtSide-3 , .card-rgtSide-4    { 
+    background-color: #fff;
+    height: 200px;
+    width: 300px;
+}
+.card-rgtSide-1 > h4 , .card-rgtSide-2 > h4 ,
+.card-rgtSide-3 > h4 , .card-rgtSide-4 > h4{ 
+    margin-top: 2vh;
+    margin-left: 1em;
+
+}
+.card-rgtSide-1 > p , .card-rgtSide-2 > p, 
+.card-rgtSide-3 > p , .card-rgtSide-4 > p{ 
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    line-height: 4vh;
+    word-break: break-all;
+}
+
+
+/* capabilities section */
+.capabilities-sec { 
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(83, 148, 250);
+}
+.line { 
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+    margin-left: 45%;
+}
+.capabit-img { 
+    width: 80vw;
+    height: 45vh;
+    margin-top: 10vh;
+    margin-left: 8em;
+    margin-right: 1em;
+}
+
+.capabit-container { 
+    display: flex;
+    justify-content: space-around;
+    align-items:normal;
+    margin-top: 1em;
+}
+
+
+.capabit-icon-1 ,
+.capabit-icon-2 , .capabit-icon-3 { 
+    width: 25px;
+    height: 25px;   
+    margin-right: 2vw;
+    margin-top: 0.5em;
+}
+.subCon-1 , .subCon-2 , .subCon-3 { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 12vh;
+    width: 50vw;
+    margin-top: 3vh;
+}
+.subCon-Wrapper { 
+    margin-left: 2em;
+    margin-top: 2em;
+    height: 25em;
+    /* border: 2px solid black; */
+}
+
+h6 { 
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    line-height: 2em;   
+    text-transform: capitalize;
+}
+.subCon-desc-1 > p , .subCon-desc-2 > p , .subCon-desc-3 > p { 
+    text-wrap: wrap;
+    margin-right: 10em;
+    text-align: left;
+    word-break: break-all;
+    line-height: 1.5em;
+    color: rgba(245, 245, 245, 0.722);
+}
+
+.hr-line { 
+    background-color: rgba(219, 214, 214, 0.586);
+    height: 2px;
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 1.8em;
+    width: 73%;
+}
+
+/* Team section */
+.team-sec { 
+    width: 100%;
+    height: 100vh;
+}
+h2#our-team-heading { 
+    margin: -10px;
+}
+
+.employee-container { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 5vh 12vw;
+}
+
+.employee-img1 { 
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    box-shadow: 1px 1px 1px;
+    
+}
+
+.employee-img2 , .employee-img3 ,
+.employee-img4 , .employee-img5 , .employee-img6 { 
+    border: 1px solid black;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px;
+}
+
+.caption-1, .caption-2, .caption-3 , .caption-4 , .caption-5 , .caption-6{ 
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.caption-1 > strong , .caption-2 > strong , .caption-3 > strong
+.caption-4 > strong , .caption-5 > strong , .caption-6 > strong{ 
+    margin-right: 5px;
+}
+
+.customer-contanier { 
+    /* background-color: rgb(216, 255, 138); */
+    /* background: ; */
+    width: 100%;
+    height: 50vh;
+    /* z-index: 3; */
+}
+/* .carousel-indicators { 
+    display: none;
+} */
+
+.carousel-caption > h5 { 
+    color: white;
+}
+.Client-sec { 
+    width: 100%;
+    height: 23em;
+    /* background: rgb(0,59,255);
+    background: linear-gradient(143deg, rgba(0,59,255,1) 0%, rgba(125,11,224,1) 65%, rgba(177,7,244,1) 100%);  */
+}
+div.indi { 
+    visibility: hidden;
+}
+.contain{ 
+    background: rgb(0,45,255);
+    background: linear-gradient(144deg, rgba(0,45,255,1) 0%, rgba(191,0,255,1) 100%); 
+    width: 100em;
+    height: 30em;
+}
+.customer-carousel-desc { 
+    margin-bottom: 20vh;
+}
+
+.customer-img1 , .customer-img2 , .customer-img3 {
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    margin-bottom: 1vh;
+    margin-right: 15%;
+    /* object-position: -32px 20px; */
+}
+.customer-name1 , .customer-name2 , .customer-name3 { 
+    font-size: 15px;
+    color: #f1eaea;
+    margin-bottom: 3vh;
+    margin-right: 15%;
+    
+}
+
+#customer-desc1 , #customer-desc2 , #customer-desc3 { 
+    margin-left: 8em;
+    font-weight: bolder;
+    margin-right: 15em;
+    
+}
+.satisfied-customer-heading { 
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    top : 60px;
+    z-index: 1;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+}
+
+.client-heading { 
+    text-align: center;
+    margin-top: 10vh;
+    text-transform: capitalize;
+}
+
+.logo-contianer { 
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4vw;
+}
+.logo1 { 
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+.logo2 { 
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+.logo3 { 
+    width: 8em;
+    height: 8em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+.logo4 { 
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+.logo5 { 
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+.logo6 { 
+    width: 14em;
+    height: 14em;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+
+/* footer section */
+.footer-sec { 
+    height: 40vh;
+    background-color: rgb(138, 148, 255);
+    /* background-color: black; */
+
+}
+.upper-section { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    background-color: #211e1c;
+}
+.col-1 { 
+    width: 20vw;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 2em 1em; */
+    /* height: %; */
+}
+.company-title { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid white;
+    width: 14em;
+}
+
+.company-icon { 
+    width: 30px;
+    height: 30px;
+}
+
+.company-name { 
+    padding: 10px;
+    font-size: 1.5em;
+    text-transform: capitalize; 
+    color: white;
+}
+.company-desc { 
+    font-size: 13px;
+    margin: 1em 0em;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.665);
+}
+
+
+.col-2 { 
+    margin-top: 8px;
+    width: 20%;
+    height: 90%;
+
+}
+
+.title { 
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize; 
+    margin: 15px 25px; 
+    padding: 10px 0px;
+    font-weight: 600;
+    color: white;
+}
+.title-desc { 
+    font-size: 13px;
+    margin: 1em 2em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.665);
+    text-align: center;
+    margin: 10px 20px 0px 20px;
+}
+.col-3 { 
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-title { 
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize; 
+    margin: 15px 25px; 
+    padding: 10px 0px;
+    font-weight: 600;
+    color: white;
+}
+
+.address-desc { 
+    font-size: 13px;
+    margin: 1em 2em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.665);
+    text-align: center;
+    margin: 10px 20px;
+
+}
+
+.highlight { 
+    color: blue;
+    margin: 3px;
+    text-transform: lowercase;
+}
+.social-handle-contianer { 
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icon { 
+    margin: 10px 4px;
+    width: 35px;
+}
+.lower-footer { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 38, 38);
+    height: 7vh;
+}
+div.wrapper { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-name { 
+    margin: 5px 5px;
+}
+a:hover { 
+    color:white;
+}
+
+.legal-statement { 
+    color: white;
+}
+
+a{ 
+    color: grey;
+    text-decoration: none;
+    text-transform: lowercase;
+}
